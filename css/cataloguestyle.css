@@ -1,0 +1,77 @@
+.nav {
+	  overflow: hidden;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: black;
+}
+
+.nav li {
+  float: left;
+  font-family: "Roboto";
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.highlight li a {
+	background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);
+}
+
+/* Change the link color to gradient on hover */
+.nav li a:hover {
+  background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);
+}
+
+.nav .logout-container{
+	float: right; 
+	background-color: red; 
+}
+
+.nav .logout-container button {
+	display: inline;
+	border: none;
+	outline: none;
+	height: 40px;
+	background: black;
+	color: #fff;
+	font-size: 14px; 
+	padding:10px;
+}
+
+.nav .logout-container button:hover {
+	cursor: pointer;
+	background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);
+}
+
+h1 {
+	font-family: "Roboto";
+	color: black; 
+	font-weight: bold; 
+}
+
+.logo {
+	font-family: "Roboto";
+	color: black; 
+	font-weight: bold; 
+	text-decoration: none; 
+}
+
+.logo a{
+	text-decoration: none; 
+	font-size: 50px;
+	color: black;
+}
+
+.logo:hover {
+	cursor: pointer;
+}
